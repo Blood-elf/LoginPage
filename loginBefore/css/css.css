@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url(../img/bg.png) no-repeat left top;
+    background-size: 100%;
+}
+.main{
+    background: url("../img/map.png") no-repeat center 35%;
+
+}
+span{
+    font-size: 16px;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.of{
+    overflow: hidden;
+}
+.loginWeb{
+    width: 1030px;
+    height: 375px;
+    position: absolute;
+    left: 50%;
+    margin-left: -515px;
+    top:30%;
+}
+.Content{
+
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    margin-left: -515px;
+    top:20%;
+
+}
+.loginWeb .Left{
+    width: 605px;
+    height: 325px;
+    background: #ddedf7;
+}
+.loginWeb .Right{
+    width: 400px;
+    height: 325px;
+    padding-left: 20px;
+    background: #f7f9fd;
+}
+.logo img{
+    height: 50px;
+}
+/*.Left img{*/
+    /*width: 542px;*/
+    /*height: 265px;*/
+    /*margin: 30px 35px;*/
+/*}*/
+.name{
+margin-top: 30px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.icon img{
+    height: 35px;
+}
+.Title{
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+}
+input[type="text"]{
+    border: none;
+    background: none;
+    width: 300px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    background: #ffffff;
+    border:solid 1px #cbc9c7;
+    margin: 5px 0;
+}
+.NameContent{
+    height: 160px;
+}
+.loginBtn{
+    display: block;
+    width: 130px;
+    height: 38px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    cursor: pointer;
+    background: url("../img/btnIcon.png") no-repeat center center;
+}
+.loginBtn:hover{
+    background: url("../img/btnIconH.png") no-repeat center center;
+}
+.NameContent span{
+    display: block;
+}
+.pass{
+    color: #242424;
+    margin-left: 15px;
+    line-height: 38px;
+    height: 38px;
+}
+.pass:hover{
+    color: #0c4c99;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Top,.Bottom{
+    margin: 10px;
+}
+.Top{
+    margin-top: 30px;
+}
+.green{
+    background: #19c574;
+    height: 127px;
+    width: 127px;
+}
+.logoDiv{
+    background: #19c574;
+    margin-left: 5px;
+}
+.blue{
+    background: #16c1c5;
+    height: 127px;
+    width: 127px;
+    margin-left: 5px;
+}
+.contentDiv{
+    background: #16c1c5;
+position: relative;
+}
+.logoDiv img,.contentDiv img{
+    width: 290px;
+    margin: 0;
+    padding: 0;
+    height: 130px;
+}
+.logoDiv,.contentDiv{
+    height: 127px;
+    width: 290px;
+    text-align: center;
+}
+.logoDiv img{
+width: 290px;
+    height: 130px;
+}
+.text{
+    height: 24px;
+    width: 100%;
+background: rgba(255,255,255,.5);
+    text-align: left;
+    position: absolute;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+    line-height: 24px;
+    cursor: pointer;
+    display: none;
+}
+.wx{
+    width: 15px;
+    margin-left: 234px;
+    margin-top: 15px;
+}
+.leftBottom{
+    width:133px;
+    background: #0c4c99;
+    height: 266px;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.center{
+width: 300px;
+    margin: 0 auto;
+
+}
+.leftBottom img{
+    width: 133px;
+    height: 266px;
+}
+.user{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.loginDiv{
+    margin-top: 20px;
+}
+.b{
+    color: #f7f9fd;
+    display: block;
+    margin-top: 10px;
+}
+.b a{
+    color: #f1f3f5;
+    text-decoration: underline;
+}
+.b a:hover{
+    color: #0c4c99;
+    cursor: pointer;
+}
