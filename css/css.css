@@ -10,11 +10,27 @@ body{
 	overflow: hidden;
 }
 .box0{
-	margin: 30px;	
-	width: 600px;
+	margin:15px;
+	padding:15px;
+	border: 1px solid blue;
+	overflow:hidden;	
 }
 .box1{
-	width50px;
-	height: 100px;
-
+	width:500px;
+	height:200px;
+	float:left;
+	background-color: #a1b2c3;
+}
+.box2{
+	width:350px;
+	height:200px;
+	float:left;
+	background-color: #aabbcc;
+}
+@font-face{
+	font-family: my-font;
+	src:url('');
+}
+div{
+	font-family:my-font;
 }
