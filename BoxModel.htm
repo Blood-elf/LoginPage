@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Box Mode</title>
-	<link rel="stylesheet" href="css/BoxModel.css">
+	<title>Document</title>
+	<script>
+		function Validate(){
+			var txtName = document.getElementById("text_name");
+			var button = document.getElementById("btnValidate");
+			var form = document.getElementById("testform");
+			if(txtName.value.trim()==""){
+				var label = document.createElement("label");
+				label.setAttribute("for","text_name");
+				form.insertBefore(label,button);
+				txtName.labels[1].innerHTML = "Please input name";
+				txtName.lbaels[1].setAttribute("style","font-size:20px;color:red;");
+			}
+		}
+	</script>
 </head>
 <body>
-	<div class="transition">transition</div>
-	<div class="translate">translate</div>
-	<div class="b_rotate">
-		<div class="rotate">rotate</div>
-	</div>
-	<div class="b_scale">
-		<div class="scale"></div>
-	</div>
-	<div class="b_skew">
-		<div class="skew"></div>
-	</div>
-	<div class="rotate2d">2D transition</div>
-	<div class="rotate3d">3D transition</div>
-	<div class="animation">
-		<div class="an1">floor1</div>
-		<div class="an2">floor2</div>
-		<div class="an3">floor3</div>
-	</div>
+	<form action="#" id="testform">
+		<label for="text_name" id="label">Name:</label>
+		<input type="text" id="text_name">
+		<input type="button" id="btnValidate" value="验证" onclick="Validate()">
+	</form>
 </body>
 </html>
