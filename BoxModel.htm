@@ -2,27 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<script>
-		function Validate(){
-			var txtName = document.getElementById("text_name");
-			var button = document.getElementById("btnValidate");
-			var form = document.getElementById("testform");
-			if(txtName.value.trim()==""){
-				var label = document.createElement("label");
-				label.setAttribute("for","text_name");
-				form.insertBefore(label,button);
-				txtName.labels[1].innerHTML = "Please input name";
-				txtName.lbaels[1].setAttribute("style","font-size:20px;color:red;");
-			}
-		}
-	</script>
+	<title>Layout</title>
+	<link rel="stylesheet" href="css/BoxModel.css">
 </head>
 <body>
-	<form action="#" id="testform">
-		<label for="text_name" id="label">Name:</label>
-		<input type="text" id="text_name">
-		<input type="button" id="btnValidate" value="验证" onclick="Validate()">
-	</form>
+	<div class="header">Head</div>
+	<div class="atricle">
+		<div class="middle">Middle</div>
+		<div class="left">Left</div>
+		<div class="right">Right</div>
+	</div>
+	<div class="footer">Footer</div>
 </body>
 </html>

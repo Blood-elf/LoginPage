@@ -14,15 +14,8 @@ body{
 .heading{
 	width: 100%;
 	height: 90px;
-	background-color: snow;
+	background-color: LavenderBlush;
 	margin: 0px auto;
-}
-.heading_nav{
-	width: 100%;
-	height: 30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	position: relative;
 }
 .heading_title{
 	float: left;
@@ -31,11 +24,17 @@ body{
 	line-height: 30px;
 	color:burlywood;
 }
-.heading_navbar{
-	/*background-color: #adef22;*/
+.heading_nav{
+	width: 100%;
+	height: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	position: relative;
+}
+/*.heading_navbar{
 	height:30px;
 	overflow: hidden;
-}
+}*/
 ul{
 	margin-left: 40px;
 	float: left;
